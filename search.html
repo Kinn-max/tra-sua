@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/category.css">
+    <link rel="stylesheet" href="Fonsomeone/fontawesome-free-6.2.0/css/all.min.css">
+    <title>Coffe and tea</title>
+</head>
+<body>
+    <header>
+        <nav class="title">
+            <div class="title_center">
+                <div class="title_center-all">
+                    <a href="index.html">
+                        <div class="img_shop">
+                            <img src="img/logo.png" alt="" class="img_shop-picture">
+                        </div>
+                    </a>
+                    <ul class="title_list">
+                        <li class="title_list-item">
+                            <a href="#" class="title_list-new">TRANG CHỦ</a>
+                        </li>
+                        <li class="title_list-item">
+                            <a href="#" class="title_list-new">GIỚI THIỆU</a>
+                        </li>
+                        <li class="title_list-item item_product-all">
+                            <a href="#" class="title_list-new">SẢN PHẨM</a>
+                            <div class="title_list-product">
+                                <div class="title_list-item--product">
+                                    <a href="">Trà sữa</a></div>
+                                <div class="title_list-item--product">
+                                    <a href="">Trà giải nhiệt</a></div>
+                                <div class="title_list-item--product">
+                                    <a href="">Giày dép</a></div>
+                                <div class="title_list-item--product">
+                                    <a href="">Giày dép</a></div>
+                            </div>
+    
+                        </li>
+                        <li class="title_list-item">
+                            <a href="#" class="title_list-new">TIN TỨC</a>
+                        </li>
+                    </ul>
+                    <div class="both_right">
+                        <div class="title_search">
+                            <input type="text" class="title_search-ip" placeholder="Tìm kiếm!" >
+                            <div class="title_search-glass">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                        <div class="title_signCart">
+                            <div class="title_signCart-user">
+                                <i class="fa-solid fa-user"></i>
+                                <ul class="title_user-list">
+                                    <li class="title_user-list-li">
+                                        <a href="register.html">Đăng ký</a>
+                                    </li>
+                                    <li class="title_user-list-li">
+                                        <a href="signIn.html">Đăng nhập</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="title_signCart-cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <ul class="title_cart-list">
+                                    <li class="title_cart-list--all">
+                                        <div class="title_cart-list--img">
+                                            <img src="img/logo.png" alt="">
+                                        </div>
+                                        <div class="title_cart-list--name">
+                                            <p>Đây là tên của ảnh</p>
+                                        </div>
+                                    </li>
+                                    <li class="title_cart-list--all">
+                                        <div class="title_cart-list--img">
+                                            <img src="img/img_big/img1.jpg" alt="">
+                                        </div>
+                                        <div class="title_cart-list--name">
+                                            <p>Đây là tên của ảnh</p>
+                                        </div>
+                                    </li>
+                                    <div class="title_cart-list--more">
+                                        <a href="cart.html">Xem thêm</a>
+                                    </div>
+                                </ul>
+                            </div>
+                            <div class="title_signCart-bar">
+                                <i class="fa-solid fa-bars"></i>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    
+        </nav>
+
+    </header>
+    <div class="wrap hiden-center">
+        <div class="center_product " id="product-details">
+            <div class="center_product-dentail">
+                <div class="top-teaMilk">
+                    <div class="top-teaMilk-img">
+                        <img id="img_center-sp" src="./img/trasua/img1.jpg" alt="">
+                    </div>
+                    <div class="top-teaMilk-infor">
+                        <form action="">
+                            <div class="name_product-title">
+                                <h3 id="name_center-sp"></h3>
+                                <div class="close_dentail">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </div>
+                            </div>
+                            <div class="price_product">
+                                <span id="price_center-sp"></span>
+                            </div>
+                            <div class="both-quantity">
+                                <div class="quantity_product">
+                                    <div class="quantity_product-mul" >
+                                        <i class="fa-solid fa-minus"></i>
+                                    </div>
+                                    <div class="quantity_product-get">
+                                        <input type="text" value="1"  name="" id="quantity_product-show">
+                                    </div>
+                                    <div class="quantity_product-plus">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                                <div class="add_product">
+                                     <input readonly class="add_product-click width_total" type="text" value="+25.000đ">
+                                </div>
+                            </div>
+                            <div class="total_price-center">
+                                <div class="add-option--now">
+                                    <span>Thêm vào giỏ</span>
+                                </div>
+                                <div class="add-option--now">
+                                    <span>Mua ngay</span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="control_pointer">
+                    <div class="size_product">
+                        <h3>Chọn size</h3>
+                        <div class="size_product-pick">
+                            <div class="size_product-pick--name">
+                                <input class="option-input" type="radio" id="radio1" name="group-radio" />
+                                <label for="radio1">Size M</label>
+                            </div>
+                            <div class="size_product-pick--name">
+                                <input class="option-input" type="radio" id="radio2" name="group-radio" />
+                                <label for="radio2">Size L</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="size_product">
+                        <h3>Chọn đường</h3>
+                        <div class="size_product-pick">
+                            <div class="size_product-pick--name">
+                                <input class="option-input" type="radio" id="radio3" name="group-radio" />
+                                <label for="radio3">100% đường</label>
+                            </div>
+                            <div class="size_product-pick--name">
+                                <input class="option-input" type="radio" id="radio4" name="group-radio" />
+                                <label for="radio4">ít đường</label>
+                            </div>
+                            <div class="size_product-pick--name">
+                                <input class="option-input" type="radio" id="radio5" name="group-radio" />
+                                <label for="radio5">Không đường</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="size_product">
+                        <h3>Chọn topping</h3>
+                        <div class="size_product-pick font_more-price">
+                            <div class="three_pick-more">
+                                <div class="size_product-pick--name">
+                                    <input class="option-input" type="radio" id="radio6" name="group-radio" />
+                                    <label for="radio6">Trân châu đường đen</label>
+                                </div>
+                            </div>
+                            <p>+5.000đ</p>
+                        </div>
+                        <div class="size_product-pick font_more-price">
+                            <div class="three_pick-more">
+                                <div class="size_product-pick--name">
+                                    <input class="option-input" type="radio" id="radio7" name="group-radio" />
+                                    <label for="radio7">Thạch râu câu</label>
+                                </div>
+                            </div>
+                            <p>+8.000đ</p>
+                        </div>
+                        <div class="size_product-pick font_more-price">
+                            <div class="three_pick-more">
+                                <div class="size_product-pick--name">
+                                    <input class="option-input" type="radio" id="radio7" name="group-radio" />
+                                    <label for="radio7">Thạch râu câu</label>
+                                </div>
+                            </div>
+                            <p>+8.000đ</p>
+                        </div>
+                        <div class="size_product-pick font_more-price">
+                            <div class="three_pick-more">
+                                <div class="size_product-pick--name">
+                                    <input class="option-input" type="radio" id="radio7" name="group-radio" />
+                                    <label for="radio7">Thạch râu câu</label>
+                                </div>
+                            </div>
+                            <p>+8.000đ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="title_center text_center background_boddy">
+            <div class="category">
+                <h3>Danh mục</h3>
+                <ul class="category_list">
+                        <li class="category_list-item">
+                            <p>Món nổi bật</p>
+                        </li>
+                        <li class="category_list-item menu_ts">
+                            <p>Trà sữa</p>
+                            <div class="round-round">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                        </li>
+                        <div class="list-dentail">
+                            <ul>
+                                <li class="list-dentail--item">Trà sữa trân châu</li>
+                                <li class="list-dentail--item">Trà sữa trân châu</li>
+                                <li class="list-dentail--item">Trà sữa trân châu</li>
+                            </ul>
+                        </div>
+                        <li class="category_list-item">
+                            <p>Caffe nóng</p>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </li>
+                        <li class="category_list-item">
+                            <p>Ice cream</p>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </li>
+                        <li class="category_list-item">
+                            <p>Đồ pha chế</p>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </li>
+                </ul>
+            </div>
+            <div class="show_product">
+                <h3 class="search_result">Kết quả tìm kiếm: <span>Kiên dep trai</span></h3>
+                <div class="wrap_show wrap_show-break">
+                    <a class="a_dentail-product"   href="#" data-product-name="Trà sữa truyền thống" data-product-price="30000" data-product-img="./img/trasua/img2.jpg">
+                        <div class="wrap_show-all length_cart">
+                            <div class="wrap_show-list width-category">
+                                <img src="./img/trasua/img2.jpg" alt="">
+                            </div>
+                            <div class="wrap_show-information plus_coversition">
+                                <span href="#" class="wrap_show-name--product">Trà sữa truyền thống</span>
+                                <div class="wrap_show-price flex_cart">
+                                    <p>30000</p>
+                                    <div class="border_circle">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="a_dentail-product"data-product-name="Trà chanh" data-product-price="20000" data-product-img="./img/trasua/img1.jpg"  href="#">
+                        <div class="wrap_show-all length_cart">
+                            <div class="wrap_show-list width-category">
+                                <img src="./img/trasua/img1.jpg" alt="">
+                            </div>
+                            <div class="wrap_show-information plus_coversition">
+                                <span href="#" class="wrap_show-name--product">Trà chanh</span>
+                                <div class="wrap_show-price flex_cart">
+                                    <p>20000</p>
+                                    <div class="border_circle">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="a_dentail-product"   href="product.html" data-product-name="Kem dâu tây" data-product-price="25000" data-product-img="./img/trasua/img3.jpg" >
+                        <div class="wrap_show-all length_cart">
+                            <div class="wrap_show-list width-category">
+                                <img src="./img/trasua/img3.jpg" alt="">
+                            </div>
+                            <div class="wrap_show-information plus_coversition">
+                                <span href="#" class="wrap_show-name--product">Kem dâu tây</span>
+                                <div class="wrap_show-price flex_cart">
+                                    <p>25,000đ</p>
+                                    <div class="border_circle">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="a_dentail-product"   href="product.html" data-product-name="Caffe đen" data-product-price="30,000đ" data-product-img="./img/trasua/img4.jpg" >
+                        <div class="wrap_show-all length_cart">
+                            <div class="wrap_show-list width-category">
+                                <img src="./img/trasua/img4.jpg" alt="">
+                            </div>
+                            <div class="wrap_show-information plus_coversition">
+                                <span href="#" class="wrap_show-name--product">Caffe đen</span>
+                                <div class="wrap_show-price flex_cart">
+                                    <p>30,000đ</p>
+                                    <div class="border_circle">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="a_dentail-product"   href="product.html">
+                        <div class="wrap_show-all length_cart">
+                            <div class="wrap_show-list width-category">
+                                <img src="./img/trasua/img1.jpg" alt="">
+                            </div>
+                            <div class="wrap_show-information plus_coversition">
+                                <span href="#" class="wrap_show-name--product">Trà sữa truyền thống</span>
+                                <div class="wrap_show-price flex_cart">
+                                    <p>30,000đ</p>
+                                    <div class="border_circle">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="a_dentail-product"   href="product.html">
+                        <div class="wrap_show-all length_cart">
+                            <div class="wrap_show-list width-category">
+                                <img src="./img/trasua/img1.jpg" alt="">
+                            </div>
+                            <div class="wrap_show-information plus_coversition">
+                                <span href="#" class="wrap_show-name--product">Trà sữa truyền thống</span>
+                                <div class="wrap_show-price flex_cart">
+                                    <p>30,000đ</p>
+                                    <div class="border_circle">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <div class="cart-show">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/style.js"></script>
+    <script src="js/category.js"></script>
+
+    
+    
+</body>
+</html>
